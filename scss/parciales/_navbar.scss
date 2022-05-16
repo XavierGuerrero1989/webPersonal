@@ -1,0 +1,11 @@
+@import "./variables";
+@import "./responsive";
+
+.navegacion {
+    background-color: $color-crema;
+    border: none;
+
+    &__img{
+        height: 20vh;
+    }
+}

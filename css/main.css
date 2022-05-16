@@ -1,0 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.navegacion {
+  background-color: #f3e3db;
+  border: none; }
+  .navegacion__img {
+    height: 20vh; }
