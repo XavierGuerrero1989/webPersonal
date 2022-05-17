@@ -46,6 +46,7 @@
         background-image: url("../../assets/img/hero1.jpg");
         background-position: bottom;
         height: 70vh;
+        
 
         &-titulo{
             font-family: $font-titulos;
@@ -65,3 +66,8 @@
 
 }
 
+.carousel-item > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

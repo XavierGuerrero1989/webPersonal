@@ -72,3 +72,8 @@
       color: #f48db1;
       text-shadow: 0 0 2px white;
       font-size: 2rem; }
+
+.carousel-item > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
