@@ -3,8 +3,72 @@
   padding: 0px;
   box-sizing: border-box; }
 
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
 .navegacion {
   background-color: #f3e3db;
   border: none; }
   .navegacion__img {
     height: 20vh; }
+  .navegacion__menu {
+    justify-content: end; }
+  .navegacion__link {
+    font-family: "Roboto Flex", sans-serif;
+    color: #0e1e55 !important;
+    font-size: 1.5rem; }
+  .navegacion__lista {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    position: initial; }
+  .navegacion__idioma {
+    width: 5vh;
+    padding: 5px; }
+    .navegacion__idioma:hover {
+      cursor: pointer; }
+
+.hero {
+  padding-left: 0px;
+  padding-right: 0px; }
+  .hero__1 {
+    background-image: url("../../assets/img/hero2.png");
+    height: 70vh; }
+    .hero__1-titulo {
+      font-family: "Roboto Flex", sans-serif;
+      color: #f48db1;
+      text-shadow: 0 0 2px white;
+      font-size: 3rem; }
+    .hero__1-subtitulo {
+      font-family: "Roboto Condensed", sans-serif;
+      color: #f48db1;
+      text-shadow: 0 0 2px white;
+      font-size: 2rem; }
+  .hero__2 {
+    background-image: url("../../assets/img/herofiesta.jpg");
+    height: 70vh; }
+    .hero__2-titulo {
+      font-family: "Roboto Flex", sans-serif;
+      color: #0e1e55;
+      text-shadow: 0 0 2px white;
+      font-size: 3rem; }
+    .hero__2-subtitulo {
+      font-family: "Roboto Condensed", sans-serif;
+      color: #0e1e55;
+      text-shadow: 0 0 2px white;
+      font-size: 2rem; }
+  .hero__3 {
+    background-image: url("../../assets/img/hero1.jpg");
+    background-position: bottom;
+    height: 70vh; }
+    .hero__3-titulo {
+      font-family: "Roboto Flex", sans-serif;
+      color: #f48db1;
+      text-shadow: 0 0 2px white;
+      font-size: 3rem; }
+    .hero__3-subtitulo {
+      font-family: "Roboto Condensed", sans-serif;
+      color: #f48db1;
+      text-shadow: 0 0 2px white;
+      font-size: 2rem; }

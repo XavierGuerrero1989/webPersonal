@@ -1,11 +1,42 @@
 @import "./variables";
 @import "./responsive";
 
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 .navegacion {
     background-color: $color-crema;
     border: none;
 
     &__img{
         height: 20vh;
+    }
+
+    &__menu{
+        justify-content: end;
+    }
+
+    &__link{
+        font-family: $font-titulos;
+        color: $color-azul !important;
+        font-size: 1.5rem;
+    }
+
+    &__lista{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        position: initial;
+    }
+
+    &__idioma{
+        width: 5vh;
+        padding: 5px;
+        
+        &:hover{
+            cursor: pointer;
+        }
     }
 }

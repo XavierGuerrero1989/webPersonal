@@ -1,0 +1,67 @@
+@import "./responsive";
+@import "./variables";
+
+.hero{
+    padding-left: 0px;
+    padding-right: 0px;
+
+    &__1{
+        background-image: url("../../assets/img/hero2.png");
+        height: 70vh;
+
+        &-titulo{
+            font-family: $font-titulos;
+            color: $color-rosa;
+            text-shadow: 0 0 2px white;
+            font-size: 3rem;
+        }
+
+        &-subtitulo{
+            font-family: $font-normal;
+            color: $color-rosa;
+            text-shadow: 0 0 2px white;
+            font-size: 2rem;
+        }
+    }
+
+    &__2{
+        background-image: url("../../assets/img/herofiesta.jpg");
+        height: 70vh;
+
+        &-titulo{
+            font-family: $font-titulos;
+            color: $color-azul;
+            text-shadow: 0 0 2px white;
+            font-size: 3rem;
+        }
+        &-subtitulo{
+            font-family: $font-normal;
+            color: $color-azul;
+            text-shadow: 0 0 2px white;
+            font-size: 2rem;
+        }
+    }
+
+    &__3{
+        background-image: url("../../assets/img/hero1.jpg");
+        background-position: bottom;
+        height: 70vh;
+
+        &-titulo{
+            font-family: $font-titulos;
+            color: $color-rosa;
+            text-shadow: 0 0 2px white;
+            font-size: 3rem;
+        }
+
+        &-subtitulo{
+            font-family: $font-normal;
+            color: $color-rosa;
+            text-shadow: 0 0 2px white;
+            font-size: 2rem;
+        }
+    }
+
+
+}
+
